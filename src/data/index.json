@@ -41,18 +41,28 @@
       "location": "Los Angeles",
       "description":"Fluffy is a very cute rabbit who loves to hop around.",
       "image": "https://images.unsplash.com/photo-1596982061417-3a686a450552?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "shelther":"Los Angeles Animal Shelter"
+      "shelther":"Los Angeles Animal Shelter",
+      "images": [
+        "https://images.unsplash.com/photo-1596982061417-3a686a450552?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1596982061507-8fb1af6a8235?q=80&w=706&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+      ]
     },
     {
       "id":4 ,
       "name": "Sam",
       "type": "dog",
-      "age": 2,
+      "age": 1,
       "breed": "Labrador Retriever",
       "location": "Los Angeles",
       "description":"Sam is a very playful dog who loves to run around.",
       "image": "https://images.unsplash.com/photo-1625794084867-8ddd239946b1?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "shelther":"Los Angeles Animal Shelter"
+      "shelther":"Los Angeles Animal Shelter",
+      "images": [
+        "https://images.unsplash.com/photo-1625794084867-8ddd239946b1?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1566195099758-e83e1d4cc01a?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+      ]
     },
     {
       "id":5 ,
@@ -62,8 +72,13 @@
       "breed": "Bulldog",
       "location": "Los Angeles",
       "description":"James is a very friendly dog who loves to play fetch.",
-      "image": "https://plus.unsplash.com/premium_photo-1676479611993-05b0c9232f84?q=80&w=1806&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "shelther":"Los Angeles Animal Shelter"
+      "image": "https://images.unsplash.com/photo-1695937098745-a8092a006cbc?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "shelther":"Los Angeles Animal Shelter",
+      "images": [
+        "https://images.unsplash.com/photo-1695937098745-a8092a006cbc?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1629907710551-e592df0ab1f5?q=80&w=869&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
+      ]
     }
   ],
   "shelters": [
