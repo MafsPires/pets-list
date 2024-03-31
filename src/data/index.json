@@ -69,14 +69,14 @@
       "name": "New York Animal Shelter",
       "location": "New York",
       "phone": "212-555-1234",
-      "email": ""
+      "email": "animalshelther@gmail.com"
     },
     {
       "id": 3,
       "name": "Los Angeles Animal Shelter",
       "location": "Los Angeles",
       "phone": "213-555-1234",
-      "email": ""
+      "email": "animalshelther@gmail.com"
     }
   ]
 }

@@ -2,8 +2,7 @@ import React from 'react';
 import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
-
-
+import data from '../data/index.json';
 
 const PetModal = ({ open, handleClose, pet }) => {
   const style = {
@@ -17,6 +16,12 @@ const PetModal = ({ open, handleClose, pet }) => {
     boxShadow: 24,
     p: 4,
   };
+
+  // Access the shelters data from the imported JSON
+  const shelters = data.shelters;
+
+  // Find the shelter information for the current pet
+  const shelter = shelters.find((shelter) => shelter.name === pet.shelther);
 
   return (
     <Modal
@@ -32,6 +37,23 @@ const PetModal = ({ open, handleClose, pet }) => {
         <Typography id="modal-modal-description" sx={{ mt: 2 }}>
           {pet.description}
         </Typography>
+        {/* Display the shelter information */}
+        {shelter && (
+          <>
+            <Typography variant="body2">
+              Shelter: {shelter.name}
+            </Typography>
+            <Typography variant="body2">
+              Location: {shelter.location}
+            </Typography>
+            <Typography variant="body2">
+              Email: {shelter.email}
+            </Typography>
+            <Typography variant="body2">
+              Phone: {shelter.phone}
+            </Typography>
+          </>
+        )}
       </Box>
     </Modal>
   );
