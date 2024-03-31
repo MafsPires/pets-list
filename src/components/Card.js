@@ -23,6 +23,9 @@ export default function MultiActionAreaCard() {
                 {pet.name}
               </Typography>
               <Typography variant="body2" color="text.secondary">
+                {pet.location}
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
                 {pet.age} years old
               </Typography>
               <Typography variant="body2" color="text.secondary">
