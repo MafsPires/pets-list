@@ -21,7 +21,7 @@ const ImageSlider = ({ images }) => {
       <img
         src={images[currentImageIndex]}
         alt={`Image ${currentImageIndex + 1}`}
-        style={{ width: '100%', maxHeight: 250, objectFit: 'cover' }}
+        style={{ width: '100%', maxHeight: 300, objectFit: 'cover' }}
       />
       <IconButton
         onClick={handlePreviousImage}
