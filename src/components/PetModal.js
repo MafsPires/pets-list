@@ -37,6 +37,7 @@ const PetModal = ({ open, handleClose, pet }) => {
         <Typography id="modal-modal-description" sx={{ mt: 2 }}>
           {pet.description}
         </Typography>
+        <hr />
         {/* Display the shelter information */}
         {shelter && (
           <>
