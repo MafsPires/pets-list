@@ -10,12 +10,13 @@ const PetModal = ({ open, handleClose, pet }) => {
     top: '50%',
     left: '50%',
     transform: 'translate(-50%, -50%)',
-    width: 400,
+    width: 600,
+    height: 400,
     bgcolor: 'background.paper',
     border: '2px solid #000',
     boxShadow: 24,
     p: 4,
-  };
+  };//pet modal style
 
   // Access the shelters data from the imported JSON
   const shelters = data.shelters;
@@ -31,6 +32,7 @@ const PetModal = ({ open, handleClose, pet }) => {
       aria-describedby="modal-modal-description"
     >
       <Box sx={style}>
+        
         <Typography id="modal-modal-title" variant="h6" component="h2">
           {pet.name}
         </Typography>
