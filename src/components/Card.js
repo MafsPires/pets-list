@@ -22,7 +22,7 @@ export default function MultiActionAreaCard() {
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '20px', justifyContent: 'center', padding: '50px 150px 150px 150px', alignItems: 'stretch' }}>
       {data?.pets?.map((pet, index) => (
-        <Card key={index} sx={{ maxWidth: 345, border: '1px solid transparent' }}>
+        <Card key={index} sx={{ maxWidth: 345,}}>
           <CardActionArea onClick={() => handleOpenModal(pet)}>
             <CardMedia
               component="img"

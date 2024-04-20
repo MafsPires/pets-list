@@ -35,26 +35,26 @@ const PetModal = ({ open, handleClose, pet }) => {
          {/* Conditionally render the ImageSlider component */}
          {pet.images && pet.images.length > 0 && <ImageSlider images={pet.images} />}
 
-        <Typography id="modal-modal-title" variant="h6" component="h2">
+        <Typography id="modal-modal-title" variant="h6" component="h2" color="text.secondary">
           {pet.name}
         </Typography>
-        <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+        <Typography id="modal-modal-description" sx={{ mt: 2 }} color="text.secondary">
           {pet.description}
         </Typography>
         <hr />
         {/* Display the shelter information */}
         {shelter && (
           <>
-            <Typography variant="body2">
+            <Typography variant="body2" color="text.secondary">
               Shelter: {shelter.name}
             </Typography>
-            <Typography variant="body2">
+            <Typography variant="body2" color="text.secondary">
               Location: {shelter.location}
             </Typography>
-            <Typography variant="body2">
+            <Typography variant="body2" color="text.secondary">
               Email: {shelter.email}
             </Typography>
-            <Typography variant="body2">
+            <Typography variant="body2" color="text.secondary">
               Phone: {shelter.phone}
             </Typography>
           </>

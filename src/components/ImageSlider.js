@@ -20,7 +20,7 @@ const ImageSlider = ({ images }) => {
     <div style={{ position: 'relative' }}>
       <img
         src={images[currentImageIndex]}
-        alt={`Image ${currentImageIndex + 1}`}
+        alt={currentImageIndex + 1}
         style={{ width: '100%', maxHeight: 300, objectFit: 'cover' }}
       />
       <IconButton
